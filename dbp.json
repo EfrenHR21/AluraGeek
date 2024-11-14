@@ -1,0 +1,40 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "Celular Samsung",
+      "precio": "S/.2500",
+      "imagen": "https://realplaza.vtexassets.com/arquivos/ids/36158369/image-f2c4429f9d774575b0b1260d412ade17.jpg?v=638657248658800000"
+    },
+    {
+      "id": 2,
+      "nombre": "Celular Motorola",
+      "precio": "S/.1500",
+      "imagen": "https://claroperupoc.vtexassets.com/arquivos/ids/1965613/moto-g24-power.png?v=638539232645370000"
+    },
+    {
+      "id": 3,
+      "nombre": "Celular Iphone",
+      "precio": "S/.3500",
+      "imagen": "https://realplaza.vtexassets.com/arquivos/ids/34787427/imageUrl_1.jpg?v=638381019837300000"
+    },
+    {
+      "id": "f0a2",
+      "nombre": "LG",
+      "precio": "S/.2000 ",
+      "imagen": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.bbc.com%2Fmundo%2Fnoticias-56640665&psig=AOvVaw3fcsOjvoz7PWH821QyE9yz&ust=1731641739887000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCPi8iqry2okDFQAAAAAdAAAAABAr"
+    },
+    {
+      "id": "2ad3",
+      "nombre": "XIAOMI",
+      "precio": "S/.2000 ",
+      "imagen": "https://www.lacuracao.pe/media/catalog/product/c/e/ce004xia57_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=700&width=700&canvas=700:700"
+    },
+    {
+      "id": "bcc1",
+      "nombre": "Nokia",
+      "precio": "S/.30 ",
+      "imagen": "https://cdn-3.expansion.mx/dims4/default/b89232d/2147483647/strip/true/crop/726x481+0+0/resize/1800x1193!/format/webp/quality/80/?url=https%3A%2F%2Fcdn-3.expansion.mx%2F86%2F69%2F2bca37e741e8a502357aedee37aa%2Fnokia-historia.jpg"
+    }
+  ]
+}
