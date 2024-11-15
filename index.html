@@ -5,64 +5,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AluraGeek</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <header>
         <div>
-            <a>ALURA GEEK</a>
+            <img src="img/Logo.png" width="374px" height="56px">
         </div>
     </header>
     <main>
-        <form class="formulario" data-formulario>
-            <h2 class="">Ingresa un producto</h2>
+        <div class="contenido">
+            <div class="productos">
+                <h2 class="productos__titulo">MIS PRODUCTOS</h2>
+                <ul class="productos__container" alt="productos" data-lista>
+                    <li class="producto__item">
+                        <img 
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjXV5WDTfrDFFIDnhE61098v3ZQqTOt4uPSQ&s"></img>
+                        <div class="descripcion-producto">
+                            <h3>Celulares</h3>
+                            <p>S/.850</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+
+
+            <form class="formulario" data-formulario>
+                <h2 class="formulario__titulo">AGREGAR PRODUCTO </h2>
                 <div class="formulario__campo">
-                    <label class="campo__texto" for="nombre">Nombre de producto</label>
-                    <input name="nombre" class="" required placeholder="Nombre de producto" id='nombre' data-nombre />
+                    <input name="nombre" class="campo" required placeholder="Nombre de producto" id='nombre' data-nombre />
                 </div>
 
                 <div class="formulario__campo">
-                    <label class="campo__texto" for="precio">Precio de producto</label>
-                    <input name="precio" class="" required placeholder="precio de producto" id='precio' data-precio />
+                    <input name="precio" class="campo" required placeholder="precio de producto" id='precio' data-precio />
                 </div>
 
                 <div class="formulario__campo">
-                    <label class="campo__texto" for="imagen">Imagen de producto</label>
-                    <input name="imagen" class="" required placeholder="Imagen del producto" id='imagen' data-imagen />
+                    <input name="imagen" class="campo" required placeholder="Imagen del producto" id='imagen' data-imagen />
                 </div>
 
-                <input class="" type="submit"  />
-        </form>
-
-        <ul class="productos__container" alt="productos" data-lista>
-            <li class="producto__item">
-                <img width="250px" height="250px"
-                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjXV5WDTfrDFFIDnhE61098v3ZQqTOt4uPSQ&s"></img>
-                <div class="descripcion-producto">
-                    <h3>Celulares</h3>
-                    <p>S/.850</p>
-                </div>
-            </li>
-        </ul>
+                <input class="campo__accion" type="submit"  />
+            </form>
+        </div>
 
         <footer>
-            <div>
                 <div>
-                    <a>ALURA GEEK</a>
+                    <img src="img/Logo.png" width="374px" height="56px">
                 </div>
-                <div>
-                    DESARROLLADO POR EFREN
+                <div class="creditos__texto">
+                    <div>
+                        DESARROLLADO POR EFREN
+                    </div>
+                    <div>
+                        ALURA LATAM - 2024
+                    </div>
                 </div>
-                <div>
-                    ALURA LATAM - 2024
-                </div>
-            </div>
         </footer>
 
     </main>
 
     <script src="js/crearProducto.js" type="module"></script>
-    <script src="js/mostrarProductos.js" type="module" ></script>
+    <script src="js/mostrarProductos.js" type="module"></script>
 </body>
 
 </html>

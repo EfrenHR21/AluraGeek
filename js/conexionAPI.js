@@ -12,7 +12,7 @@ async function enviarProducto(nombre,precio,imagen) {
         headers:{"Content-Type":"application/json"},
         body:JSON.stringify({
             nombre:nombre,
-            precio:`S/.${precio} `,
+            precio:`${precio} `,
             imagen:imagen,
         })
     })

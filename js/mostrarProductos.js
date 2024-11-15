@@ -6,7 +6,7 @@ export default function crearCard(nombre,precio,imagen){
     const producto = document.createElement("li");
 
     producto.className="producto__item";
-    producto.innerHTML=`<img width="250px" height="250px"
+    producto.innerHTML=`<img "
                     src="${imagen}"></img>
                 <div class="descripcion-producto">
                     <h3>${nombre}</h3>
