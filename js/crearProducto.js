@@ -12,7 +12,8 @@ async function crearProducto(evento){
 
     try {
         await conexionAPI.enviarProducto(nombre,precio,imagen);
-        window.location.href="mensaje.html";
+        window.location.href="index.html";
+        alert("Producto Creado");
     } catch (e) {
         alert(e);
     }

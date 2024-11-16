@@ -29,6 +29,42 @@
       "nombre": "Nokia",
       "precio": "S/.30 ",
       "imagen": "https://cdn-3.expansion.mx/dims4/default/b89232d/2147483647/strip/true/crop/726x481+0+0/resize/1800x1193!/format/webp/quality/80/?url=https%3A%2F%2Fcdn-3.expansion.mx%2F86%2F69%2F2bca37e741e8a502357aedee37aa%2Fnokia-historia.jpg"
+    },
+    {
+      "id": "9f85",
+      "nombre": "Iphone 16",
+      "precio": "3500 ",
+      "imagen": "https://realplaza.vteximg.com.br/arquivos/ids/34816419/imageUrl_1.jpg?v=638387988481430000"
+    },
+    {
+      "id": "a08f",
+      "nombre": "Honor 8XA",
+      "precio": "1500 ",
+      "imagen": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.lacuracao.pe%2Fhonorx8a-8-128gb-crt-lx3-cyan-lake.html&psig=AOvVaw3pVvtOLGa09rMbJXHenLx-&ust=1731807804244000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCNDTsfvc34kDFQAAAAAdAAAAABAJ"
+    },
+    {
+      "id": "6993",
+      "nombre": "Samsung A15",
+      "precio": "1000 ",
+      "imagen": "https://imagedelivery.net/4fYuQyy-r8_rpBpcY7lH_A/falabellaPE/20185279_01/w=1500,h=1500,fit=pad"
+    },
+    {
+      "id": "6b07",
+      "nombre": "Iphone 11",
+      "precio": "1 ",
+      "imagen": "https://imagedelivery.net/4fYuQyy-r8_rpBpcY7lH_A/falabellaPE/18673441_1/w=800,h=800,fit=pad"
+    },
+    {
+      "id": "e830",
+      "nombre": "Iphone 13",
+      "precio": "3500 ",
+      "imagen": "https://promart.vteximg.com.br/arquivos/ids/6237731-1000-1000/image-3252a491991746eb93dd6b6b4a00fb44.jpg?v=637941274249500000"
+    },
+    {
+      "id": "504b",
+      "nombre": "Samsung A55",
+      "precio": "2500 ",
+      "imagen": "https://oechsle.vteximg.com.br/arquivos/ids/18674780-1000-1000/2613779.jpg?v=638622165486470000"
     }
   ]
 }
